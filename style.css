@@ -938,6 +938,23 @@ a {
 .main-lanzamientos-conteinter button{
     display: none;
 }
+    .deporte-subtitle{
+        margin-bottom: 3rem;
+        margin-left: 2rem;
+    }
+    .deporte-basquet-h3{
+        margin-left: 2rem;
+        margin-top: 1rem;
+    }
+    .deporte-shoes-h3{
+        margin-left: 2rem;
+        margin-top: 1rem;
+    }
+    .main-title-btn, 
+    .deporte-basquet{
+        margin-left: 2rem;
+        margin-bottom: 2rem;
+    }
     .image-shoes-container{
         flex-direction: column;
         align-items: center;
