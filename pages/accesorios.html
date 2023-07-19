@@ -5,50 +5,71 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../style.css" />
     <title>Accesorios</title>
 </head>
 
 <body>
     <header>
-        <nav class="navbar">
-            <a class="logo" href="../index.html">NEZ.</a>
-            <ul class="menu">
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./hombre.html">Hombre</a></li>
-                <li><a href="./mujer.html">Mujer</a></li>
-                <li><a href="./niño.html">Niño/a</a></li>
-                <li><a href="./accesorios.html">Accesorios</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand logo" href="../index.html">NEZ</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 navbartext">
+                        <li class="nav-item">
+                            <a class="nav-link" href="hombre.html">Hombre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="mujer.html">Mujer</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="niño.html">Niño/a</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="accesorios.html">Accesorios</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-outline-dark" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
         </nav>
     </header>
     <main>
         <div class="main-accesorios-title">
-            <p class="main-accesorios-title-p">Lo nuevo</p>
-            <h1 class="main-accesorios-title-h1">Nez Brasilia 9.5</h1>
+            <p class="hombre-title-acg">Lo nuevo</p>
+            <h1 class="title-acg">Nez Brasilia 9.5</h1>
             <button class="main-accesorios-title-btn"><a href="">Comprar</a></button>
         </div>
-        <div class="main-accesorios-image-container">
-            <img class="main-accesorios-image" src="/image/bolsito.jpg" alt="2 Niños">
+        <div class="hombre-image-container">
+            <img class="hombre-image-1" src="/image/BolsoOptimizado.jpg" alt="2 Niños">
         </div>
-        <p class="destacado-accesorios-title">Destacado Accesorios</p>
+        <p class="mujer-title-lanzamiento">Destacado Accesorios</p>
 
-        <div class="image-shoes-container-accesorios">
-            <div class="imagenes-accesorios-zapas-1">
+        <div class="image-shoes-container">
+            <div class="imagenes-zapas-1">
                 <img src="../image/gorra.jpg" alt="Shoes-Nike">
                 <p class="shoes-accesorios-title-1-1">Nike Sportswear Heritage 86 Futura Washed</p>
                 <p class="shoes-accesorios-1-2">Gorra de Moda Unisex</p>
                 <p class="shoes-accesorios-1-3">$12.999</p>
             </div>
 
-            <div class="imagenes-accesorios-zapas-2">
+            <div class="imagenes-zapas-2">
                 <img src="../image/medias.jpg" alt="Shoes-Nikes">
                 <p class="shoes-accesorios-title-2-1">Nike Everyday Plus acolchadas</p>
                 <p class="shoes-accesorios-2-2">Medias de Moda Unisex 2 Pares</p>
                 <p class="shoes-accesorios-2-3">$6.499</p>
             </div>
 
-            <div class="imagenes-accesorios-zapas-3">
+            <div class="imagenes-zapas-3">
                 <img src="../image/mochila.jpg" alt="Shoes-Nikes">
                 <p class="shoes-accesorios-title-3-1">Nike Brasilia</p>
                 <p class="shoes-accesorios-3-2">Mochila de Entrenamiento Unisex</p>
@@ -56,8 +77,8 @@
             </div>
         </div>
         </div>
-        <p class="lanzamientos-accesorios-title">Últimos Lanzamientos</p>
-        <div class="main-accesorios-lanzamientos-conteinter">
+        <p class="lanzamientos-title">Últimos Lanzamientos</p>
+        <div class="main-lanzamientos-conteinter">
             <div class="accesorios-invicible-container">
                 <img class="accesorios-invicible-image" src="../image/RIÑO.jpg" alt="Chico">
                 <h3 class="accesorios-invicible-h3">Nike Heritage</h3>
@@ -96,6 +117,7 @@
         </div>
     </footer>
     <script src="https://kit.fontawesome.com/d0f7670b53.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
