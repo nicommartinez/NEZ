@@ -1,0 +1,139 @@
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 650px) {
+    img {
+        width: 100%;
+    }
+    .main-image-container{
+        flex-direction: column;
+    }
+    .main-deporte-container{
+    flex-direction: column;
+    }
+
+    .menu{
+        margin-left: 0;
+    }
+
+    .main-image-1{
+        margin: 0;
+
+    }
+    .main-image-container img{
+        width: 100%;
+    }
+
+    .main-deporte-container img {
+        margin: 0;
+    }
+
+    .deporte-basquet {
+        padding-left: 0;
+    }
+
+    .pie-pagina .grupo-1{
+        max-width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .deporte-shoes{
+        padding-right: 0;
+    }
+
+    body{
+        display: block;
+    }
+
+    .deporte-subtitle{
+        margin-left: 0;
+    }
+    .navbar {
+        padding: 0px;
+    }
+    
+    /* MAIN HOMBRE */
+
+    .imagenes-zapas{
+        width: 90%;
+    }
+
+    .main-lanzamientos-container h3,
+.main-lanzamientos-container button{
+    display: none;
+}
+    .deporte-subtitle{
+        margin-bottom: 3rem;
+        margin-left: 2rem;
+    }
+    .deporte-basquet-h3{
+        margin-left: 2rem;
+        margin-top: 1rem;
+    }
+    .deporte-shoes-h3{
+        margin-left: 2rem;
+        margin-top: 1rem;
+    }
+    .main-title-btn, 
+    .deporte-basquet{
+        margin-left: 2rem;
+        margin-bottom: 2rem;
+    }
+    .image-shoes-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .imagenes-zapas-1 {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    .imagenes-zapas-2 {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    .imagenes-zapas-3 {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+
+    .main-title{
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .lanzamientos-title {
+        margin-top: 170px;
+        font-size: 25px;
+        margin-bottom: 50px;
+    }
+
+    .main-lanzamientos-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 200px;
+    }
+
+    .box{
+        margin: 0 1rem;
+    }
+    .grupo-1{
+        text-align: center;
+    }
+    
+}
+
+/* Estilos para tablets */
+@media (min-width: 577px) and (max-width: 1023px) {
+
+}
+
+/* Estilos para pantallas más grandes */
+@media (min-width: 1024px) {
+
+}

@@ -1,0 +1,575 @@
+@import './global';
+@import './variables';
+@import './navbar';
+
+/* MAIN HOME */
+
+.main-title {
+    text-align: center;
+}
+
+.main-title-btn {
+    background-color: $color-black;
+    border: 0 transparent $color-white;
+    padding: 8px 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.main-title-btn a {
+    color: $color-white;
+}
+
+.main-title-p {
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 100px;
+}
+
+.main-title-h1 {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.main-image-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 100px 0;
+}
+
+.main-image-container img {
+    display: inline-block;
+    width: 70%;
+    height: 100%;
+}
+
+.main-image-1 {
+    margin: 20px 70px 100px 150px;
+}
+
+.main-destacado{
+    text-align: center;
+    font-size: 25px;
+}
+
+
+.deporte-subtitle {
+    font-size: 25px;
+    margin-left: 170px;
+    margin-bottom: 170px;
+}
+
+.main-deporte-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+
+.main-deporte-container img {
+    margin: 20px;
+}
+
+.deporte-basquet {
+    padding-left: 150px;
+}
+
+.deporte-shoes {
+    padding-right: 150px;
+}
+
+.deporte-basquet-container {
+    display: inline-block;
+}
+
+.deporte-shoes-container {
+    display: inline-block;
+}
+
+.deporte-basquet-h3 {
+    margin-left: 170px;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.deporte-basquet {
+    margin-left: 170px;
+}
+
+.deporte-shoes-h3 {
+    margin-left: 20px;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.deporte-shoes {
+    margin-left: 20px;
+}
+
+/* MAIN HOME END */
+
+/* MAIN HOMBRE  */
+
+.main-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.main-intro-subtitle {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.main-intro-title {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.hombre-acg-btn {
+    text-align: center;
+}
+
+.hombre-title-btn {
+    @include nezBtn;
+}
+
+.hombre-title-btn a {
+    color: $color-white;
+}
+
+.image-shoes-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 160px;
+}
+.producto{
+    transition: .2s ease all;
+    padding: 1rem;
+    
+}
+
+.producto:hover{
+    transform: scale(1.1);
+    box-shadow: 1px 3px 30px -3px rgba(0,0,0,0.44);
+}
+
+
+.lanzamientos-title {
+    margin-top: 170px;
+    font-size: 25px;
+    margin-left: 2rem;
+    margin-bottom: 50px;
+}
+
+.main-lanzamientos-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+
+
+
+
+
+.nez-invicible-image {
+    width: 100%;
+}
+
+.nez-relax-image {
+    width: 100%;
+}
+
+.nez-relax-btn {
+    background-color: $color-black;
+    border: 0 transparent $color-white;
+    padding: 8px 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.nez-relax-btn a {
+    color: $color-white;
+}
+
+.nez-invicible-btn {
+    background-color: $color-black;
+    border: 0 transparent $color-white;
+    padding: 8px 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.nez-invicible-btn a {
+    color: $color-white;
+}
+
+/* MAIN HOMBRE END */
+
+
+
+.imagenes-zapas {
+    margin: 2rem;
+    width: 25%;
+}
+
+.imagenes-zapas p{
+    margin-bottom: 2rem;
+}
+
+.imagenes-zapas img {
+    width: 100%;
+}
+
+
+.main-title {
+    font-size: 25px;
+    margin: 5rem auto 2rem auto;
+}
+
+/* MAIN NIÑO*/
+
+.main-intro-container {
+    text-align: center;
+}
+
+.main-intro-container-p {
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+
+.main-intro-container-h1 {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.main-intro-btn {
+    @include nezBtn;
+}
+
+.main-intro-btn a {
+    color: $color-white;
+}
+
+.main-niño-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 1260px;
+    height: 488px;
+    margin-left: 350px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.main-niño-image {
+    width: 100%;
+    padding-top: 730px;
+}
+
+.destacado-niño-title {
+    font-size: 25px;
+    margin-left: 170px;
+}
+
+.image-shoes-container-niño {
+    width: 100%;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 170px;
+}
+
+.imagenes-niño-zapas-1 {
+    position: relative;
+    display: inline-block;
+    width: 25%;
+    padding: 40px;
+}
+
+.imagenes-niño-zapas-1 img {
+    width: 100%;
+    height: auto;
+}
+
+.shoes-niño-title-1-1 {
+    font-weight: 600;
+}
+
+.shoes-niño-1-3 {
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.imagenes-niño-zapas-2 {
+    position: relative;
+    display: inline-block;
+    width: 25%;
+    padding: 40px;
+}
+
+.imagenes-niño-zapas-2 img {
+    width: 100%;
+    height: auto;
+}
+
+.shoes-niño-title-2-1 {
+    font-weight: 600;
+}
+
+.shoes-niño-2-3 {
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.imagenes-niño-zapas-3 {
+    position: relative;
+    display: inline-block;
+    width: 25%;
+    padding: 40px;
+}
+
+.imagenes-niño-zapas-3 img {
+    width: 100%;
+    height: auto;
+}
+
+.shoes-niño-title-3-1 {
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.shoes-niño-title-3-1 {
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.lanzamientos-niño-title {
+    font-size: 25px;
+    margin-left: 170px;
+    margin-bottom: 50px;
+}
+
+.main-niño-lanzamientos-conteinter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 400px;
+    margin-bottom: 200px;
+}
+
+.niño-invicible-image {
+    width: 600px;
+}
+
+.niño-invicible-btn {
+    background-color: $color-black;
+    border: 0 transparent $color-white;
+    padding: 8px 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.niño-invicible-btn a {
+    color: $color-white;
+}
+
+.niño-relax-image {
+    width: 600px;
+}
+
+.niño-relax-btn {
+    background-color: $color-black;
+    border: 0 transparent $color-white;
+    padding: 8px 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.niño-relax-btn a {
+    color: $color-white;
+}
+
+/* MAIN NIÑO END */
+
+/* MAIN ACCESORIOS */
+
+.main-accesorios-title {
+    text-align: center;
+}
+
+.main-accesorios-title-p {
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+
+.main-accesorios-title-h1 {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.main-accesorios-title-btn {
+    background-color: $color-black;
+    border: 0 transparent $color-white;
+    padding: 8px 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.main-accesorios-title-btn a {
+    color: $color-white;
+}
+
+.main-accesorios-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 1260px;
+    height: 700px;
+    margin-left: 350px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.main-accesorios-image {
+    width: 100%;
+    padding-top: 300px;
+}
+
+.destacado-accesorios-title {
+    font-size: 25px;
+    margin-left: 170px;
+}
+
+.image-shoes-container-accesorios {
+    width: 100%;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 200px;
+}
+
+.imagenes-accesorios-zapas-1 {
+    position: relative;
+    display: inline-block;
+    width: 25%;
+    padding: 40px;
+}
+
+.imagenes-accesorios-zapas-1 img {
+    width: 100%;
+    height: auto;
+}
+
+.shoes-accesorios-title-1-1 {
+    font-weight: 600;
+}
+
+.shoes-accesorios-1-3 {
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.imagenes-accesorios-zapas-2 {
+    position: relative;
+    display: inline-block;
+    width: 25%;
+    padding: 40px;
+}
+
+.imagenes-accesorios-zapas-2 img {
+    width: 100%;
+    height: auto;
+}
+
+.shoes-accesorios-title-2-1 {
+    font-weight: 600;
+}
+
+.shoes-accesorios-2-3 {
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.imagenes-accesorios-zapas-3 {
+    position: relative;
+    display: inline-block;
+    width: 25%;
+    padding: 40px;
+}
+
+.imagenes-accesorios-zapas-3 img {
+    width: 100%;
+    height: auto;
+}
+
+.shoes-accesorios-title-3-1 {
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.shoes-accesorios-title-3-1 {
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.lanzamientos-accesorios-title {
+    font-size: 25px;
+    margin-left: 170px;
+    margin-bottom: 50px;
+}
+
+.main-accesorios-lanzamientos-conteinter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 400px;
+    margin-bottom: 200px;
+}
+
+.accesorios-invicible-image {
+    width: 600px;
+}
+
+.accesorios-invicible-btn {
+    background-color: $color-black;
+    border: 0 transparent $color-white;
+    padding: 8px 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.accesorios-invicible-btn a {
+    color: $color-white;
+}
+
+.accesorios-relax-image {
+    width: 600px;
+}
+
+.accesorios-relax-btn {
+    background-color: $color-black;
+    border: 0 transparent $color-white;
+    padding: 8px 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.accesorios-relax-btn a {
+    color: $color-white;
+}
+
+
+@import './footer';
+@import './responsive';
+

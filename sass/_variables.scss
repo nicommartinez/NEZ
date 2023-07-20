@@ -1,0 +1,10 @@
+$color-black: #212121;
+$color-white: #ffffff;
+
+@mixin nezBtn{
+    background-color: $color-black;
+    border: 0 transparent $color-white;
+    padding: 8px 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+}

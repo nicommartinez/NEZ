@@ -152,40 +152,24 @@ a {
 
 /* MAIN HOMBRE  */
 
-.hombre-image-container {
+.main-image-container {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 40px;
 }
 
-.hombre-title-acg {
+.main-intro-subtitle {
     text-align: center;
     font-size: 20px;
     margin-top: 50px;
 }
 
-.title-acg {
+.main-intro-title {
     margin-top: 10px;
     text-align: center;
     font-size: 40px;
     font-weight: 900;
-}
-
-.hombre-acg-btn {
-    text-align: center;
-}
-
-.hombre-title-btn {
-    background-color: black;
-    border: 0 transparent white;
-    padding: 8px 20px;
-    border-radius: 20px;
-    margin-top: 20px;
-}
-
-.hombre-title-btn a {
-    color: white;
 }
 
 .image-shoes-container {
@@ -203,16 +187,6 @@ a {
 }
 
 .imagenes-zapas-1 img {
-    width: 100%;
-}
-
-.imagenes-zapas-2 {
-    margin: 2rem;
-    width: 25%;
-    
-}
-
-.imagenes-zapas-2 img {
     width: 100%;
 }
 
@@ -255,7 +229,7 @@ a {
     margin-bottom: 50px;
 }
 
-.main-lanzamientos-conteinter {
+.main-lanzamientos-container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -349,7 +323,7 @@ a {
     padding-top: 400px;
 } */
 
-.mujer-title-lanzamiento {
+.main-title {
     font-size: 25px;
     margin-left: 2rem;
 }
@@ -484,22 +458,22 @@ a {
 
 /* MAIN NIÑO*/
 
-.main-niño-title {
+.main-intro-container {
     text-align: center;
 }
 
-.main-niño-title-p {
+.main-intro-container-p {
     font-size: 20px;
     margin-bottom: 10px;
     margin-top: 40px;
 }
 
-.main-niño-title-h1 {
+.main-intro-container-h1 {
     font-size: 40px;
     font-weight: 900;
 }
 
-.main-niño-title-btn {
+.main-intro-btn {
     background-color: black;
     border: 0 transparent white;
     padding: 8px 20px;
@@ -507,7 +481,7 @@ a {
     margin-top: 20px;
 }
 
-.main-niño-title-btn a {
+.main-intro-btn a {
     color: white;
 }
 
@@ -933,8 +907,12 @@ a {
     }
     
     /* MAIN HOMBRE */
-    .main-lanzamientos-conteinter h3,
-.main-lanzamientos-conteinter button{
+
+
+   
+
+    .main-lanzamientos-container h3,
+.main-lanzamientos-container button{
     display: none;
 }
     .deporte-subtitle{
@@ -977,7 +955,7 @@ a {
     }
 
 
-    .mujer-title-lanzamiento{
+    .main-title{
         font-size: 25px;
         margin-left: 2rem;
     }
@@ -989,7 +967,7 @@ a {
         margin-bottom: 50px;
     }
 
-    .main-lanzamientos-conteinter {
+    .main-lanzamientos-container {
         display: flex;
         align-items: center;
         justify-content: center;
