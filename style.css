@@ -9,7 +9,6 @@ html {
 }
 
 body {
-    display: grid;
     font-family: "Kumbh Sans";
 
 }
@@ -106,11 +105,9 @@ a {
     align-items: center;
     justify-content: center;
     margin-bottom: 200px;
+    margin: 0 20px;
 }
 
-.main-deporte-container img {
-    margin: 20px;
-}
 
 .deporte-basquet {
     padding-left: 150px;

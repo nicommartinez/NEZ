@@ -80,21 +80,15 @@ a {
 }
 
 .main-image-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-evenly;
+  align-items: center;
   margin: 100px 0;
 }
 
 .main-image-container img {
   display: inline-block;
-  width: 60%;
+  width: 30%;
   height: 100%;
 }
 
@@ -114,17 +108,10 @@ a {
 }
 
 .main-deporte-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
   width: 100%;
   margin-bottom: 200px;
 }
@@ -142,10 +129,11 @@ a {
   display: inline-block;
 }
 
-.nez-invicible-container {
-  margin: 1rem;
+/* .deporte-basquet-h3 {
+    font-weight: 500;
+    font-size: 25px;
 }
-
+ */
 .deporte-shoes-h3,
 .deporte-basquet-h3 {
   margin-left: 20px;
@@ -165,15 +153,9 @@ a {
 /* MAIN HOME END */
 /* MAIN HOMBRE  */
 .main-image-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   margin-top: 40px;
 }
 
@@ -207,29 +189,21 @@ a {
 }
 
 .image-shoes-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  justify-content: center;
+  flex-wrap: wrap;
   width: 100%;
   margin-bottom: 160px;
 }
 
 .producto {
-  -webkit-transition: 0.2s ease all;
   transition: 0.2s ease all;
   padding: 1rem;
 }
 
 .producto:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-  -webkit-box-shadow: 1px 3px 30px -3px rgba(0, 0, 0, 0.44);
-          box-shadow: 1px 3px 30px -3px rgba(0, 0, 0, 0.44);
+  transform: scale(1.1);
+  box-shadow: 1px 3px 30px -3px rgba(0, 0, 0, 0.44);
 }
 
 .lanzamientos-title {
@@ -240,15 +214,9 @@ a {
 }
 
 .main-lanzamientos-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 200px;
 }
 
@@ -332,15 +300,9 @@ a {
 }
 
 .main-niño-image-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   overflow: hidden;
   width: 1260px;
   height: 488px;
@@ -437,15 +399,9 @@ a {
 }
 
 .main-niño-lanzamientos-conteinter {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   gap: 400px;
   margin-bottom: 200px;
 }
@@ -512,15 +468,9 @@ a {
 }
 
 .main-accesorios-image-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   overflow: hidden;
   width: 1260px;
   height: 700px;
@@ -617,15 +567,9 @@ a {
 }
 
 .main-accesorios-lanzamientos-conteinter {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   gap: 400px;
   margin-bottom: 200px;
 }
@@ -664,15 +608,9 @@ a {
 
 /* Footer */
 .pie {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
   justify-items: center;
 }
 
@@ -685,15 +623,9 @@ a {
   width: 100%;
   max-width: 1200px;
   margin: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-evenly;
+  align-items: center;
   gap: 50px;
   padding: 45px 0px;
 }
@@ -722,21 +654,16 @@ a {
 }
 
 .logo-pie-nez {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   text-align: center;
 }
 
 .fa::before {
   color: #ffffff;
 }
+
 
 /* Footer End */
 /* Estilos para dispositivos móviles */
@@ -745,16 +672,10 @@ a {
     width: 100%;
   }
   .main-image-container {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .main-deporte-container {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     text-align: center;
   }
   .deporte-basquet-container {
@@ -781,8 +702,7 @@ a {
   }
   .pie-pagina .grupo-1 {
     max-width: 100%;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
   }
   .deporte-shoes {
     padding-right: 0;
@@ -822,13 +742,8 @@ a {
     margin-bottom: 2rem;
   }
   .image-shoes-container {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-direction: column;
+    align-items: center;
   }
   .imagenes-zapas-1 {
     padding: 0;
@@ -855,15 +770,9 @@ a {
     margin-bottom: 50px;
   }
   .main-lanzamientos-container {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    align-items: center;
+    justify-content: center;
     margin-bottom: 200px;
   }
   .box {
@@ -874,4 +783,4 @@ a {
   }
 }
 /* Estilos para tablets */
-/* Estilos para pantallas más grandes */
+/* Estilos para pantallas más grandes *//*# sourceMappingURL=main.css.map */

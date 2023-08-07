@@ -1,6 +1,8 @@
 @import './global';
 @import './variables';
 @import './navbar';
+@import './contact';
+
 
 /* MAIN HOME */
 
@@ -40,12 +42,12 @@
 
 .main-image-container img {
     display: inline-block;
-    width: 70%;
+    width: 60%;
     height: 100%;
 }
 
 .main-image-1 {
-    margin: 20px 70px 100px 150px;
+    margin: 20px 70px 100px 150px; 
 }
 
 .main-destacado{
@@ -64,44 +66,41 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
     margin-bottom: 200px;
 }
 
+
+.nez-relax-conteiner{
+    margin: 1rem;
+}
 .main-deporte-container img {
     margin: 20px;
 }
 
-.deporte-basquet {
-    padding-left: 150px;
-}
 
-.deporte-shoes {
-    padding-right: 150px;
-}
-
-.deporte-basquet-container {
-    display: inline-block;
-}
-
+.deporte-basquet-container,
 .deporte-shoes-container {
     display: inline-block;
 }
 
+.nez-invicible-container{
+    margin: 1rem;
+}
+
+.deporte-shoes-h3,
 .deporte-basquet-h3 {
-    margin-left: 170px;
-    font-weight: 500;
-    font-size: 25px;
-}
-
-.deporte-basquet {
-    margin-left: 170px;
-}
-
-.deporte-shoes-h3 {
     margin-left: 20px;
     font-weight: 500;
     font-size: 25px;
 }
+
+.deporte-basquet-container .nez-relax-btn,
+.deporte-shoes-container .nez-relax-btn{
+    margin-left: 20px;
+}
+
 
 .deporte-shoes {
     margin-left: 20px;
